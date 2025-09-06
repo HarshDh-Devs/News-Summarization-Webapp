@@ -5,7 +5,7 @@ Includes variants of the UI (tabs/sidebar) across multiple scripts for experimen
 
 ---
 
-## ✨ Features
+##  Features
 - **Fetch by mode**: Trending, Categories (WORLD, BUSINESS, TECHNOLOGY, etc.), and free-text Search via Google News RSS.  
 - **Auto-summary**: Pulls article content with Newspaper3k and produces concise summaries after parsing and NLP.  
 - **Top image preview**: Attempts to render the article’s top image; falls back to a local placeholder if not present (first script).  
@@ -13,7 +13,7 @@ Includes variants of the UI (tabs/sidebar) across multiple scripts for experimen
 
 ---
 
-## 🛠️ Tech stack
+## 🛠 Tech stack
 - [Streamlit](https://streamlit.io) for the UI  
 - [Newspaper3k](https://github.com/codelucas/newspaper) for article parsing, metadata extraction, and summaries (uses NLTK’s punkt tokenizer)  
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) for RSS parsing of Google News feeds  
@@ -22,9 +22,9 @@ Includes variants of the UI (tabs/sidebar) across multiple scripts for experimen
 ---
 
 
-## 🚀 Getting started
+##  Getting started
 
-### ✅ Prerequisites
+###  Prerequisites
 - Python **3.9+** recommended  
 - Install system build tools if required by Newspaper3k (`lxml`, `libxml2`, `libxslt` on some OSes)  
 - Some sites may require a custom user agent and timeouts for Newspaper3k to download reliably  
@@ -51,7 +51,7 @@ python -c "import nltk; nltk.download('punkt')"
 streamlit run main_app.py
 
 
-# 💡 Usage
+#  Usage
 
 Trending: Loads top stories from Google News RSS
  and lists items with summaries and images when available.
