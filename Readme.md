@@ -30,15 +30,6 @@ Includes variants of the UI (tabs/sidebar) across multiple scripts for experimen
 - Some sites may require a custom user agent and timeouts for Newspaper3k to download reliably  
 
 ### ⚙️ Installation
-bash
-git clone <your-repo-url>
-cd <your-repo-folder>
-
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
 
 pip install -U pip
 pip install streamlit newspaper3k beautifulsoup4 pillow lxml
