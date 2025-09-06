@@ -39,7 +39,7 @@ python -c "import nltk; nltk.download('punkt')"
 # ▶️ Run
 
 
-streamlit run main_app.py
+streamlit run App.py
 
 
 #  Usage
