@@ -21,11 +21,6 @@ Includes variants of the UI (tabs/sidebar) across multiple scripts for experimen
 
 ---
 
-## 📂 Project structure
-
-*(Adjust file names to match your repository files.)*
-
----
 
 ## 🚀 Getting started
 
@@ -52,15 +47,9 @@ python -c "import nltk; nltk.download('punkt')"
 
 # ▶️ Run
 
-Run any of the app variants:
 
 streamlit run main_app.py
-# or
-streamlit run simple_app.py
-# or
-streamlit run minimal_category_app.py
-# or
-streamlit run sidebar_app.py
+
 
 # 💡 Usage
 
